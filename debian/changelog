@@ -1,4 +1,4 @@
-minidlna (1.0.24-1) stable; urgency=low
+minidlna (1.0.24+1) stable; urgency=low
 
   * Fix init.d script
 

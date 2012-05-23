@@ -9,7 +9,7 @@ Vcs-Git: git://gitorious.org/debian-pkg/minidlna.git
 Vcs-Browser: https://gitorious.org/debian-pkg/minidlna
 
 Package: minidlna
-Architecture: any
+Architecture: all
 Depends: adduser,
          lsb-base
 Description: lightweight DLNA/UPnP-AV server targeted at embedded systems
