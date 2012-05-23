@@ -13,8 +13,8 @@ install:
 	dh_prep
 	dh_installdirs
 	dh_install
-	chmod +x $(CURDIR)/debian/minidlna-static/usr/sbin/minidlna
-	chmod +x $(CURDIR)/debian/minidlna-static/etc/init.d/minidlna
+	chmod +x $(CURDIR)/debian/minidlna/usr/sbin/minidlna
+	chmod +x $(CURDIR)/debian/minidlna/etc/init.d/minidlna
 
 
 binary-indep: install omv_clean_scm
