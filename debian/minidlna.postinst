@@ -24,6 +24,8 @@ CONFIG=/etc/minidlna.conf
 
 case "$1" in
     configure)
+		update-rc.d minidlna defaults
+	
         dpkg-statoverride --force --update \
             --add ${USER} ${GROUP} 644 ${CONFIG} >/dev/null 2>&1
 
