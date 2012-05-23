@@ -1,0 +1,5 @@
+minidlna-static (1.0.24) stable; urgency=low
+
+  * Sync with upstream
+
+ -- Marcel Beck <marcel.beck@mbeck.org>  Wed, 23 May 2012 22:45:31 +0200

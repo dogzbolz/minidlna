@@ -1,0 +1,23 @@
+Source: minidlna
+Section: net
+Priority: optional
+Maintainer: Marcel Beck <marcel.beck@mbeck.org>
+Build-Depends: debhelper (>> 7)
+Standards-Version: 3.6.10
+Homepage: http://sourceforge.net/projects/minidlna/
+
+Package: minidlna-static
+Architecture: all
+Depends: fping
+Priority: optional
+Description: MiniDLNA (aka ReadyDLNA) is server software with the aim of being
+ fully compliant with DLNA/UPnP-AV clients.
+ .
+ The minidlna daemon serves media files (music, pictures, and video)
+ to clients on your network.  Example clients include applications
+ such as totem and xbmc, and devices such as portable media players,
+ smartphones, and televisions.
+ .
+ MiniDLNA is a simple, lightweight alternative to mediatomb, but has
+ fewer features. It does not have a web interface for administration
+ and must be configured by editing a text file.
