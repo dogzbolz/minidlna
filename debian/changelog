@@ -1,3 +1,9 @@
+minidlna (1.0.24+2) stable; urgency=low
+
+  * Fix init.d script - Changed /run to /var/run
+
+ -- Marcel Beck <marcel.beck@mbeck.org>  Wed, 23 May 2012 23:28:48 +0200
+
 minidlna (1.0.24+1) stable; urgency=low
 
   * Fix init.d script
