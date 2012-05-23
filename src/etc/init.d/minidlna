@@ -27,7 +27,7 @@ unset USER
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
 DESC="DLNA/UPnP-AV media server"
 NAME=minidlna
-DAEMON=/usr/bin/minidlna
+DAEMON=/usr/sbin/minidlna
 PIDDIR=/run/$NAME
 PIDFILE=$PIDDIR/$NAME.pid
 SCRIPTNAME=/etc/init.d/$NAME

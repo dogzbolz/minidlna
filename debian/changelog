@@ -1,3 +1,9 @@
+minidlna (1.0.24+omvporg-1) stable; urgency=low
+
+  * Fix init.d script
+
+ -- Marcel Beck <marcel.beck@mbeck.org>  Wed, 23 May 2012 23:18:05 +0200
+
 minidlna (1.0.24) stable; urgency=low
 
   * Sync with upstream
