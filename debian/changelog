@@ -1,3 +1,9 @@
+minidlna (1.0.25) stable; urgency=low
+
+  * Update to MiniDLNA 1.0.25
+
+ -- Marcel Beck <marcel.beck@mbeck.org>  Thu, 19 Jul 2012 07:53:44 +0200
+
 minidlna (1.0.24+2) stable; urgency=low
 
   * Fix init.d script - Changed /run to /var/run
